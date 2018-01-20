@@ -5,12 +5,10 @@ keycloak:
   auth-server-url: http://localhost:8180/auth
   realm: SampleRealm
   resource: sb-app
-  public-client: true
-  security-constraints[0]:
-    authRoles[0]: user
-    securityCollections[0]:
-      patterns[0]: /me
+  public-client: false
   principal-attribute: preferred_username
+  credentials:
+    secret: f97d9997-7e1d-4dbc-b10e-a982e4797127
 logging:
   level:
     org.springframework.security: DEBUG
