@@ -1,4 +1,4 @@
-package com.codependent.keyclockdemo;
+package com.codependent.keycloakssdemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
